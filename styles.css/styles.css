@@ -511,7 +511,55 @@ color: rgba(255, 255, 255, 0.6);
     margin-left: 70px;
     
     }
-
+    .form-foter-icon {
+      fill: var(--primery-background-colors);
+      margin-left: 10px;
+      
+    }
+    .btn-foter-form {
+      
+      width: 200px;
+      height: 50px;
+      background-color: var(--accent-color);
+      color: var(--primery-background-colors);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+            display: inline-flex;
+            justify-content: center;
+        align-items: center;
+        letter-spacing: 0.06em;
+        padding-left: 29px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 28px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          border-radius: 4px;
+          border: none;
+          margin-left: 12px;
+       
+    }
+    .form-footer-div {
+      margin-left: 93px;
+    }
+    .form-foter {
+      margin-top: 20px;
+    }
+        .foter-form-iteam {
+          display: flex;
+        }
+.footer-form__input {
+background-color: #2f303a;
+    width: 358px;
+    height: 50px;
+    padding: 15px 0 15px 16px;
+  
+  border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  width: 358px;
+  height: 50px;
+}
 
                     /* страница портфолио */
     .portfolio-nav {
@@ -707,10 +755,6 @@ flex-direction:column ;
     color: #212121;
     margin-bottom: 12px;
  }
- .btn-foter-form::after {
-   content: "" ;
-   background-image: url(../images/symbol-defs1.svg   );
- }
-
+ 
  
      
