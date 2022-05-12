@@ -687,8 +687,8 @@ resize: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
   min-width: 528px;
+  z-index: 1;
     min-height: 581px;
     padding: 40px 40px;
  }
@@ -706,6 +706,10 @@ flex-direction:column ;
   
     color: #212121;
     margin-bottom: 12px;
+ }
+ .btn-foter-form::after {
+   content: "" ;
+   background-image: url(../images/symbol-defs1.svg   );
  }
 
  
