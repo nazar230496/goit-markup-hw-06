@@ -387,25 +387,38 @@
         <div class="modal">
         <form class="js-speaker-form form">
             <h2 class="form-heading">Оставьте свои данные, мы вам перезвоним</h2>
-<div class="form-field">
+
     <label for="name" class="form-label">Имя</label>
-<input class="form-input" type="text" name="name" id="name" >
+    <div class="form-field">
+<input class="form-input" type="text" name="name" id="name" required >
+<svg class="form-modal-icon" width="12" height="12">
+    <use href="./images/symbol-defs1.svg#icon-name"></use>
+</svg>
 </div>
-    <div class="form-field">
-        <label for="tel">Телефон</label>
-        <input class="form-input" type="tel" name="tel" id="tel">
+    
+        <label class="form-label" for="tel">Телефон</label>
+        <div class="form-field">
+        <input class="form-input" type="tel" name="tel" id="tel" required>
+        <svg class="form-modal-icon" width="13" height="13">
+            <use href="./images/symbol-defs1.svg#icon-telll"></use>
+        </svg>
     </div>
+    
+    <label class="form-label" for="mail">Почта</label>
     <div class="form-field">
-    <label for="mail">Почта</label>
-    <input class="form-input" type="email" name="mail" id="mail">
+    <input class="form-input" type="email" name="mail" id="mail" required>
+    <svg class="form-modal-icon" width="15" height="12">
+        <use href="./images/symbol-defs1.svg#icon-emaiil"></use>
+    </svg>
     </div>
+    
+    <label class="form-label" for="coment">Комментарий</label>
     <div class="form-field">
-    <label for="coment">Комментарий</label>
-<textarea name="" id="coment"  rows="10" placeholder="Введите текст"></textarea>
+<textarea class="form-coment" name="" id="coment"  rows="10" placeholder="Введите текст"></textarea>
 </div>
 <input type="checkbox" id="policy" name="policy">
 <label for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
-<button type="submit">Отправить</button>
+<button class="form-modal-btn" type="submit">Отправить</button>
 
         </form>
         
