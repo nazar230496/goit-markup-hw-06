@@ -836,9 +836,26 @@ display: inline-block;
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
-  margin-bottom: 30px;
 }
  .checkbox {
    appearance: none;
  }
-     
+     .modal-window__checkbox-icon {
+      display: inline-block;
+        width: 16px;
+        height: 15px;
+        border: 2px solid #000000;
+        border-radius: 2px;
+     }
+     .modal-window__contract-text {
+
+        margin-left: 8px;
+        color: #757575;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+     }
+     .checkbox:checked + .modal-window__checkbox-icon {
+       background-color: var(--accent-color);
+     }
