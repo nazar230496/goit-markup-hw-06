@@ -829,7 +829,7 @@ display: inline-block;
 }
 .modal-contact-link {
   color: #2196f3;
-
+border-bottom: 1px solid #2196f3;
 }
 .form-policy {
       display: flex;
@@ -850,12 +850,18 @@ display: inline-block;
      .modal-window__contract-text {
 
         margin-left: 8px;
-        color: #757575;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
+       
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+       letter-spacing: 0.03em;
+         color: #757575;
      }
      .checkbox:checked + .modal-window__checkbox-icon {
        background-color: var(--accent-color);
-     }
+       background-image: url(../images/gaaal.svg);
+       background-size: contain;
+        background-origin: border-box;
+        border-color: transparent;
+      }
+    
