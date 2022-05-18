@@ -432,6 +432,10 @@ fill: #FFFFFF;
   color:var(--accent-color);
   margin-bottom: 20px;
 }
+.nav-footer {
+ flex-grow: 1;
+
+}
 .footer-logo {
 
 font-family: "Raleway",sans-serif;
@@ -529,7 +533,7 @@ color: rgba(255, 255, 255, 0.6);
             justify-content: center;
         align-items: center;
         letter-spacing: 0.06em;
-        padding: 29px 10px;
+        padding: 10px 29px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           border-radius: 4px;
           margin-left: 12px;
@@ -538,9 +542,6 @@ color: rgba(255, 255, 255, 0.6);
     
     .form-footer-div {
       margin-left: 93px;
-    }
-    .form-foter {
-      margin-top: 20px;
     }
         .foter-form-iteam {
           display: flex;
@@ -705,8 +706,6 @@ transform: translate(-50%, -50%) rotate(180deg);
      background: #FFFFFF;
     min-width: 528px;
     min-height: 581px;
-    padding: 8px;
-    
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
   
